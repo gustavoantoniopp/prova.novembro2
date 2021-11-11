@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+body{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul{
+  list-style: none;
 }
+li{
+  font-style: none;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 22px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header{
+  color:red;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+};
+.text{
+  font-size: 30px;
+  color:white
 }
+.sim{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.label{
+  color: white;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.space{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.center{
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
