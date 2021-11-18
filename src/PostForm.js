@@ -1,6 +1,5 @@
-import { Component } from "react"
+import React, { Component } from 'react'
 import api from "./service/api"
-import './App.css'
 
 class PostForm extends Component {
 
@@ -37,13 +36,13 @@ class PostForm extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <div className="label">
                         <label><h4>Informe as informações do objeto que deseja cadastrar:</h4></label>
-
+                        
                         <label>Nome</label>
-                            <input type='text' name='name' value={name} onChange={this.handleChange}></input>
+                            <input type='text' name='name' data-testid="name" value={name} onChange={this.handleChange}></input>
                         <label>Email</label>
-                            <input type='text' name='email' value={email} onChange={this.handleChange}></input>
+                            <input type='text' name='email' data-testid="email" value={email} onChange={this.handleChange}></input>
                         <label>Telephone</label>
-                            <input type='text' name='phone' value={phone} onChange={this.handleChange}></input>
+                            <input type='text' name='phone' data-testid="phone" value={phone} onChange={this.handleChange}></input>
                         <div>
                             <button type='submit'>Enviar</button>
                         </div>

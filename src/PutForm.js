@@ -1,4 +1,4 @@
-import { Component } from "react"
+import React, { Component } from "react"
 import api from "./service/api"
 import './App.css'
 
